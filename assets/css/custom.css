@@ -1,0 +1,46 @@
+.largefont {
+    font-size: 1rem;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header.preview > .date:before {
+    left: 0;
+}
+
+header.preview > .date:after {
+    right: 0;
+}
+
+header.preview > .date:before, header.preview > .date:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: calc(50% - 6rem);
+    border-top: solid 2px #eeeeee;
+}
+
+
+#main>.posts>article p {
+    text-align: center;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+#footer, #navPanelToggle {
+    display: none;
+}

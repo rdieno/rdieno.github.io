@@ -1,7 +1,7 @@
 ---
 layout: null
-title: Jekyll Theme - Home Page - Massively
-description: Every great website starts with a great homepage. The homepage tells your viewers what your site is all about and gives your viewers a place to come back to.
+title: Ryan Dieno's Projects
+description: A collection of various projects by Ryan Dieno :)
 sitemap:
     priority: 1.0
     lastmod: 2017-11-02
@@ -25,7 +25,7 @@ sitemap:
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
+				<!-- Intro
 					<div id="intro">
             <h1>{{site.title}}</h1>
 						<h2>The Jekyll Theme Version</h2>
@@ -34,23 +34,23 @@ sitemap:
 						<ul class="actions">
 							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
-					</div>
+					</div> -->
 
 				<!-- Header -->
 					<header id="header">
 						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
 					</header>
 
-				<!-- Nav -->
+				<!-- Nav  -->
+
 					<nav id="nav">
 
             {% include nav.html %}
 
 					</nav>
-
 				<!-- Main -->
 					<div id="main">
-						<!-- Featured Post -->
+						<!-- Featured Post
 							<article class="post featured">
 								<header class="major">
 									<h2><a href="#">Massively is a versatile Jekyll theme</a></h2>
@@ -68,41 +68,45 @@ sitemap:
 									In this manner, content in itself is a standout amongst the best promoting apparatuses in your whole advertising toolbox! Rather than making your content around your promoting technique, it's limitlessly more productive to fabricate your showcasing around your content.
 								 </p>
 
-							</article>
+							</article> -->
 
 						<!-- Posts -->
 							<section class="posts">
-                {% for post in site.posts limit:3 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
+                {% for post in site.posts limit:12 %}
+                <!-- {% assign mod3 = forloop.index | modulo: 3 %} -->
   								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
+  									<header class = "preview">
+  										 <span class="date">{{ post.type }}</span> 
   										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
   									</header>
   									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
   									<p>{{ post.excerpt }}</p>
   									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+  										<li><a href="{{ post.url | absolute_url }}" class="button">Details</a></li>
   									</ul>
   								</article>
-                  {% if mod3 == 0 %}
+
+
+                 <!-- {% if mod3 == 0 %}
                   <article>
   									<header>
   										<h2><a href="#">Sponsored</a></h2>
   									</header>
 
   								</article>
-                  {% endif %}
+                  {% endif %} -->
+
+
                 {% endfor %}
 
 							</section>
 
-						<!-- Footer -->
+						<!-- Footer 
 							<footer>
                 <ul class="actions">
                   <li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
                 </ul>
-							</footer>
+							</footer> -->
 
 					</div>
 

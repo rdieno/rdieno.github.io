@@ -110,12 +110,14 @@
 			$main = $('#main'),
 			$navPanelToggle, $navPanel, $navPanelInner;
 
+		$body.removeClass('is-loading');
+
 		// Disable animations/transitions until the page has loaded.
-			$window.on('load', function() {
-				window.setTimeout(function() {
-					$body.removeClass('is-loading');
-				}, 100);
-			});
+		//	$window.on('load', function() {
+		//		window.setTimeout(function() {
+		//			$body.removeClass('is-loading');
+		//		}, 100);
+		//	});
 
 		// Prioritize "important" elements on medium.
 			skel.on('+medium -medium', function() {
@@ -160,7 +162,7 @@
 				)
 					.appendTo($body)
 					.panel({
-						delay: 500,
+						delay: 0,
 						hideOnClick: true,
 						hideOnSwipe: true,
 						resetScroll: true,

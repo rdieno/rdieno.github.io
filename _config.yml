@@ -1,7 +1,7 @@
 # Site
-title:              Massively
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+title:              Ryan Dieno
+bio:                ''
+description:        "Ryan Dieno - Portfolio"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -31,12 +31,12 @@ defaults:
     path: ''
     type: posts
   values:
-    permalink: "/blog/:title/"
+    permalink: "/projects/:title/"
     layout: post
     author:
 
 # Jekyll
-permalink:          /blog/:title/
+permalink:          /projects/:title/
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
@@ -51,7 +51,8 @@ sass:
   style:            compressed
 
 # Gems
-gems:
+#gems:
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
@@ -59,7 +60,7 @@ gems:
   - jekyll-paginate
 
 paginate: 6
-paginate_path: "/blog/page:num/"
+paginate_path: "/projects/page:num/"
 
 jekyll-mentions:
     base_url: https://github.com
