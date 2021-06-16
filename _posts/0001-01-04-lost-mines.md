@@ -21,6 +21,16 @@ type: "Course Team Project"
 <div class="videoWrapper">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/leszM47VM_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<br/>
+<div class="box">
+  <p>
+    Video demonstrating quadtree. Squares turn red when colliding with another square.
+  </p>
+</div>
+
+<div class="videoWrapper">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/G3YilyHbmng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <hr/>
 
