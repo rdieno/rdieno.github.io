@@ -1,2 +1,2 @@
 # Ryan Dieno's Portfolio
-> A Collection of my projects from School, Game Jams and beyond.
+> A website showcasing a collection of my projects from school, game jams and beyond.
