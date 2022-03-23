@@ -10,7 +10,7 @@ type: "Tutorial"
 ### Just the basics
 <div class="box">
   <p>
-    During my time as club president of the BCIT Game Dev club. I decided to give a tutorial. This tutorial was given over two 1 hour periods and included topics such as animation, movement and aiming independent of camera angle, firing projectiles and would have also included collision if I had figured it out in time. 
+    During my time as club president of the BCIT Game Dev club. I decided to give a tutorial. This tutorial was given over two 1 hour periods and included topics such as animation, movement and aiming independent of camera angle, firing projectiles and collision.
   </p>
 </div>
 

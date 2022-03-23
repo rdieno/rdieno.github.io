@@ -44,3 +44,97 @@ header.preview > .date:before, header.preview > .date:after {
 #footer, #navPanelToggle {
     display: none;
 }
+
+#main {
+    z-index: unset;
+    background-color: #151823;
+}
+
+#main:after {
+    position: absolute;
+    content: "";
+    top: -16.5%;
+    left: -15%;
+    right: 0;
+    z-index: -1;
+    height: 133%;
+    width: 130%;
+    margin: 0 auto;
+    transform: scale(0.75);
+    -webkit-filter: blur(5vw);
+    -moz-filter: blur(5vw);
+    -ms-filter: blur(5vw);
+    filter: blur(5vw);
+    background: linear-gradient(270deg, #0fffc1, #7e0fff);
+    background-size: 200% 200%;
+}
+
+html body.is-loading #main:after {
+    animation: animateGlow 10s ease infinite !important;
+}
+
+@keyframes animateGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body.is-loading #wrapper.fade-in:before {
+     opacity: 0;
+}
+
+body p, body span {
+    font-family: 'Open Sans', Georgia, serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, body {
+    color: #d4d4d4;
+}
+
+h2 a {
+    color: #d4d4d4;
+}
+
+a.button {
+    color: #d4d4d4 !important;
+    box-shadow: inset 0 0 0 2px #d4d4d4;
+}
+
+#main>.posts>article {
+    border-color: #212931;
+}
+
+code {
+    font-family: monospace;
+    font-size: 0.625rem;
+}
+
+
+body i {
+    color: #18bfef !important;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Light.woff2') format('woff2'),
+        url('../fonts/Lato-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
