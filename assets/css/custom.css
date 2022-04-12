@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Light.woff2') format('woff2'),
+        url('../fonts/Lato-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .largefont {
     font-size: 1rem;
 }
@@ -121,20 +139,73 @@ body i {
     color: #18bfef !important;
 }
 
-@font-face {
-    font-family: 'Lato';
-    src: url('../fonts/Lato-Light.woff2') format('woff2'),
-        url('../fonts/Lato-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+/*  */
+
+#main.homepage {
+    background-color: rgb(255, 0, 0, 0);
 }
 
-@font-face {
-    font-family: 'Open Sans';
-    src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
-        url('../fonts/OpenSans-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+#main.homepage>.posts>article {
+    background-color: #151823;
+    margin-bottom: 0.0625%;
 }
+
+@media only screen and (min-width: 737px) {
+    #main.homepage>.posts>article {
+        border: 0;
+    }
+
+    #main.homepage>.posts>article:nth-child(odd) {
+        margin-right: 0.125%;
+    }
+
+    #main.homepage>.posts>* {
+        width: 49.9375%;
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    #main.homepage>.posts>article {
+        border: 0;
+        margin-bottom: .25%;
+    }
+}
+
+/*  */
+
+#main.homepage>.posts {
+    border: 0;
+}
+
+#main.homepage>.post.featured {
+    border: 0;
+    margin-bottom: 0.0625%;
+    margin-right: 0.0625%;
+    background-color: #151823;
+}
+
+
+#main.homepage>.post.featured>header.major {
+    margin: 0 0 1rem 0;
+}
+
+#main.homepage>.post.featured a {
+    color:  #ffffff;
+}
+
+@media screen and (min-width: 737px) {
+    #main.homepage>.post.featured {
+        padding: 4rem 8rem 1rem 8rem;
+    }
+}
+@media screen and (max-width: 736px) {
+    #main.homepage>.post.featured {
+        margin-bottom: .25%;
+        margin-right: 0;
+    }
+}
+
+
+
+
+/*  */
