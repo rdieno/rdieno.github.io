@@ -65,7 +65,7 @@ header.preview > .date:before, header.preview > .date:after {
 
 #main {
     z-index: unset;
-    background-color: #151823;
+    background-color: #151823d9;
 }
 
 #main:after {
@@ -87,7 +87,11 @@ header.preview > .date:before, header.preview > .date:after {
     background-size: 200% 200%;
 }
 
-html body.is-loading #main:after {
+//html body.is-loading #main:after {
+//    animation: animateGlow 10s ease infinite !important;
+//}
+
+html body #main:after {
     animation: animateGlow 10s ease infinite !important;
 }
 
@@ -146,7 +150,8 @@ body i {
 }
 
 #main.homepage>.posts>article {
-    background-color: #151823;
+    //background-color: #151823d9;
+    background-color: #08090dd9;
     margin-bottom: 0.0625%;
 }
 
@@ -179,9 +184,11 @@ body i {
 
 #main.homepage>.post.featured {
     border: 0;
-    margin-bottom: 0.0625%;
+    //margin-bottom: 0.0625%;
+    margin-bottom: 0.1%;
     margin-right: 0.0625%;
-    background-color: #151823;
+    //background-color: #151823d9;
+    background-color: #08090dd9;
 }
 
 
@@ -189,15 +196,151 @@ body i {
     margin: 0 0 1rem 0;
 }
 
+#main.homepage>.post.featured>header.major h2 {
+    font-size: 3rem;
+    font-style: italic;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin: 3rem 0 1.1rem 0;
+    display: inline-block;
+}
+
+#main.homepage>.post.featured>header.major h2:after {
+    content: "";
+    width: 294px;
+    height: 18px;
+    background: url(../../images/header-underline.png) no-repeat;
+    top: 9.75rem;
+    left: 30.5rem;
+    position: absolute;
+    display: inline-block;
+}
+
+#main.homepage>.post.featured>header p {
+    text-align: left;
+    font-size: 1.25rem;
+    line-height: 2.3rem;
+    display: inline-block;
+    margin: 0 8rem 2rem 0;
+}
+
+#header {
+    background-image: url(../../images/pixel-header.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 2rem;
+    background-size: contain;
+}
+
+#copyright {
+    margin: 0;
+    padding: 4rem 0 8rem 0;
+    background-image: url(../../images/pixel-footer.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    max-width: unset;
+    width: unset;
+}
+
+
+#main > section > article:nth-child(1) {
+    background-image: url(../../images/pixel-article-1.png);
+    background-repeat: no-repeat;
+    background-position-x: 0rem;
+    background-position-y: 9rem;
+    background-size: contain;
+}
+
+#main > section > article:nth-child(2) {
+    background-image: url(../../images/pixel-article-2.png);
+    background-repeat: no-repeat;
+    background-position-x: 0rem;
+    background-position-y: 28rem;
+    background-size: contain;
+}
+
+#main > section > article:nth-child(5) {
+    background-image: url(../../images/pixel-article-3.png);
+    background-repeat: no-repeat;
+    background-position-x: -0.7rem;
+    background-position-y: 7rem;
+    background-size: contain;
+}
+
+#main > section > article:nth-child(4) {
+    background-image: url(../../images/pixel-article-4.png);
+    background-repeat: no-repeat;
+    background-position-x: 0rem;
+    background-position-y: 30rem;
+    background-size: contain;
+}
+
+#main > section > article:nth-child(6) {
+    background-image: url(../../images/pixel-article-5.png);
+    background-repeat: no-repeat;
+    background-position-x: 0rem;
+    background-position-y: 30rem;
+    background-size: contain;
+}
+
+#main > section > article:nth-child(10) {
+    background-image: url(../../images/pixel-article-2.png);
+    background-repeat: no-repeat;
+    background-position-x: 0rem;
+    background-position-y: 28rem;
+    background-size: contain;
+}
+
+#main > section > article:nth-child(7) {
+    background-image: url(../../images/pixel-article-4.png);
+    background-repeat: no-repeat;
+    background-position-x: 0rem;
+    background-position-y: 30rem;
+    background-size: contain;
+}
+
+#main > section > article:nth-child(9) {
+    background-image: url(../../images/pixel-article-5.png);
+    background-repeat: no-repeat;
+    background-position-x: 0rem;
+    background-position-y: 30rem;
+    background-size: contain;
+}
+
+
+#main > article > header  p > span {
+    top: -0.75rem;
+}
+
+ #main > article > header > span.image.left {
+    margin: 2rem 2rem 2rem 2rem;
+    transform: scale(1);
+ }
+
 #main.homepage>.post.featured a {
     color:  #ffffff;
 }
 
 @media screen and (min-width: 737px) {
     #main.homepage>.post.featured {
-        padding: 4rem 8rem 1rem 8rem;
+        padding: 1rem 2rem 4rem 2rem;
     }
 }
+
+@media screen and (min-width: 1681px) {
+    #main.homepage>.post.featured {
+        padding: 1rem 2rem 2rem 2rem;
+    }
+
+    #main > article > header > span.image.left {
+        margin: 2rem 2rem 2rem 2rem;
+        transform: scale(1.25);
+    }
+}
+
 @media screen and (max-width: 736px) {
     #main.homepage>.post.featured {
         margin-bottom: .25%;
@@ -205,7 +348,75 @@ body i {
     }
 }
 
+@media screen and (max-width: 1085px) {
+    #main > article > header > span.image.left {
+        float: unset;
+    }
 
+    #main.homepage>.post.featured>header.major h2:after {
+        //content: "";
+        //width: 294px;
+        //height: 18px;
+        //background: url(../../images/header-underline.png) no-repeat;
+        top: 32.75rem;
+        left: 15.5rem;
+        //position: absolute;
+        //display: inline-block;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+    #main > article > header > span.image.left {
+        margin: 2rem 2rem 2rem 2rem;
+        transform: scale(1.25);
+    }
+}
+
+@media screen and (min-width: 1681px) {
+    #main.homepage>.post.featured>header.major h2:after {
+        transform: scale(1.25);
+    }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1085px) {
+    #main.homepage>.post.featured {
+        padding: 1rem 2rem 2rem 2rem;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #main.homepage>.post.featured {
+        padding: 2rem 3rem 2rem 3rem;
+    }
+
+    #main.homepage>.post.featured>header.major h2:after {
+        top: 1rem;
+        left: -18rem;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 846px) {
+    #main.homepage>.post.featured>header.major h2:after {
+        top: 0rem;
+        left: 0rem;
+        //position: relative;
+    }
+
+
+
+    #main.homepage>.post.featured>header p {
+        margin: 0 4rem 2rem 0;
+    }
+        
+}
+
+@media screen and (max-width: 600px) {
+    #main.homepage>.post.featured>header.major h2 {
+        font-size: 2rem;
+    }
+}
 
 
 /*  */
