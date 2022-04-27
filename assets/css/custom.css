@@ -479,4 +479,8 @@ body li, body li b {
     #main.homepage>.posts>article {
         background-color: #151823;
     }
+
+    a.button {
+        max-width: 8rem;
+    }
 }
