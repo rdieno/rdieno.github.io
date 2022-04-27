@@ -152,7 +152,8 @@ body i {
 #main.homepage>.posts>article {
     //background-color: #151823d9;
     background-color: #08090dd9;
-    margin-bottom: 0.0625%;
+    //margin-bottom: 0.0625%;
+    margin-bottom: 0.1%;
 }
 
 @media only screen and (min-width: 737px) {
