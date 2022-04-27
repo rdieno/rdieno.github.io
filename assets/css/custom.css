@@ -310,6 +310,14 @@ body i {
     background-size: contain;
 }
 
+strong, b {
+    color: #18bfef !important;
+}
+
+body li, body li b {
+    font-family: 'Open Sans', Georgia, serif;
+    font-weight: 400;
+}
 
 #main > article > header  p > span {
     top: -0.75rem;
@@ -419,4 +427,56 @@ body i {
 }
 
 
-/*  */
+@media screen and (max-width: 736px) {
+    #main > section > article:nth-child(1) {
+        background-position-x: 0rem;
+        background-position-y: 7rem;
+    }
+
+    #main > section > article:nth-child(2) {
+        background-position-x: 0rem;
+        background-position-y: 24rem;
+    }
+
+    #main > section > article:nth-child(5) {
+        background-position-x: -1rem;
+        background-position-y: 5rem;
+    }
+
+    #main > section > article:nth-child(4) {
+        background-position-x: 0rem;
+        background-position-y: 27rem;
+    }
+
+    #main > section > article:nth-child(6) {
+        background-position-x: 0rem;
+        background-position-y: 28rem;
+    }
+
+    #main > section > article:nth-child(10) {
+        background-position-x: 0rem;
+        background-position-y: 24rem;
+    }
+
+    #main > section > article:nth-child(7) {
+        background-position-x: 0rem;
+        background-position-y: 27rem;
+    }
+
+    #main > section > article:nth-child(9) {
+        background-position-x: 0rem;
+        background-position-y: 27rem;
+    }
+}
+
+@supports (-webkit-touch-callout: none) {
+   /* CSS specific to iOS devices */ 
+
+    #main.homepage>.post.featured {
+        background-color: #151823;
+    }
+
+    #main.homepage>.posts>article {
+        background-color: #151823;
+    }
+}
