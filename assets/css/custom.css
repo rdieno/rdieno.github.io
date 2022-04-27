@@ -483,4 +483,8 @@ body li, body li b {
     a.button {
         max-width: 8rem;
     }
+
+    #main {
+        background-color: #151823;
+    }
 }
