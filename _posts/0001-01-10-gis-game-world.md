@@ -70,7 +70,23 @@ RightStairs --> stair(right, 10)
   </code>
 </pre>
 
-<span class="image fit"><a href="/images/6_Control-Building_simple-temple-2-lg.png" target="_blank"><img src="/images/6_Control-Building_simple-temple-2-lg.png" alt=""></a></span>
+<!--<span class="image fit"><a href="/images/6_Control-Building_simple-temple-2-lg.png" target="_blank"><img src="/images/6_Control-Building_simple-temple-2-lg.png" alt=""></a></span>-->
+
+<div class="box alt">
+  <div class="row 50% uniform">
+    <div class="4u"><span class="image fit"><a href="{{ "/images/building-1.png" | absolute_url }}" target="_blank"><img src="{{ "/images/building-1.png" | absolute_url }}" alt="" /></a></span></div>
+    <div class="4u"><span class="image fit"><a href="{{ "/images/building-2.png" | absolute_url }}" target="_blank"><img src="{{ "/images/building-2.png" | absolute_url }}" alt="" /></a></span></div>
+    <div class="4u$"><span class="image fit"><a href="{{ "/images/building-3.png" | absolute_url }}" target="_blank"><img src="{{ "/images/building-3.png" | absolute_url }}" alt="" /></a></span></div>
+    <!-- Break -->
+    <div class="4u"><span class="image fit"><a href="{{ "/images/building-4.png" | absolute_url }}" target="_blank"><img src="{{ "/images/building-4.png" | absolute_url }}" alt="" /></a></span></div>
+    <div class="4u"><span class="image fit"><a href="{{ "/images/building-5.png" | absolute_url }}" target="_blank"><img src="{{ "/images/building-5.png" | absolute_url }}" alt="" /></a></span></div>
+    <div class="4u$"><span class="image fit"><a href="{{ "/images/building-6.png" | absolute_url }}" target="_blank"><img src="{{ "/images/building-6.png" | absolute_url }}" alt="" /></a></span></div>
+    <!-- Break -->
+    <div class="4u"><span class="image fit"><a href="{{ "/images/building-7.png" | absolute_url }}" target="_blank"><img src="{{ "/images/building-7.png" | absolute_url }}" alt="" /></a></span></div>
+    <div class="4u"><span class="image fit"><a href="{{ "/images/building-8.png" | absolute_url }}" target="_blank"><img src="{{ "/images/building-8.png" | absolute_url }}" alt="" /></a></span></div>
+   <!-- <div class="4u$"><span class="image fit"><img src="{{ "/images/building-1.png" | absolute_url }}" alt="" /></span></div>-->
+  </div>
+</div>
 
 <br/>
 
@@ -80,6 +96,10 @@ RightStairs --> stair(right, 10)
   </p>
 </div>
 <span class="image fit"><a href="/images/game-scene-1.png" target="_blank"><img src="/images/game-scene-1.png" alt=""></a></span>
+
+<span class="image fit"><a href="/images/game-scene-2.png" target="_blank"><img src="/images/game-scene-2.png" alt=""></a></span>
+
+<span class="image fit"><a href="/images/game-scene-3.png" target="_blank"><img src="/images/game-scene-3.png" alt=""></a></span>
 
 <hr/>
 <p class="textcenter">Note: this project is currently under review and is subject to change.</p>
