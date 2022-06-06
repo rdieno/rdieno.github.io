@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Prison.EXE"
-date:   0001-01-02
+date:   0001-01-03
 excerpt: "Final project for COMP 8051 at BCIT"
 image: "/images/prison-exe-1.png"
 type: "Course Team Project"

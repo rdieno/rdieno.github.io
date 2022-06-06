@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Bad Hoomans"
-date:   0001-01-07
+date:   0001-01-08
 excerpt: "Global Game Jam 2020 Submission"
 image: "/images/bad-hoomans-1.png"
 type: "Game Jam"

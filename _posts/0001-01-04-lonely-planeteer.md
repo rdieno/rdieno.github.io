@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Lonely Planeteer"
-date:   0001-01-03
+date:   0001-01-04
 excerpt: "Final project for COMP 8551 at BCIT"
 image: "/images/lonely-planeteer-1.png"
 type: "Course Team Project"

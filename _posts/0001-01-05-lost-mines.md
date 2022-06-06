@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Lost Mines"
-date:   0001-01-04
+date:   0001-01-05
 excerpt: "Final project for COMP 8851 at BCIT"
 image: "/images/lost-mines-1.png"
 type: "Course Team Project"

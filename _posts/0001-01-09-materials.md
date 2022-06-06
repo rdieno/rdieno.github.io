@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Materials"
-date:   0001-01-08
+date:   0001-01-09
 excerpt: "Substance Designer Materials"
 image: "/images/brick-material-thumb.png"
 type: "Material"

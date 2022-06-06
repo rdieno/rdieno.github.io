@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Police Mech"
-date:   0001-01-09
+date:   0001-01-10
 excerpt: "Substance Painter texturing"
 image: "/images/robot-mech.png"
 type: "Texturing"

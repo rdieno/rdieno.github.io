@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Game Dev Club Tutorial"
-date:   0001-01-05
+date:   0001-01-06
 excerpt: "A tutorial I gave for the BCIT Game Dev Club"
 image: "/images/gdc-tutorial-1.png"
 type: "Tutorial"
