@@ -324,13 +324,19 @@ body li, body li b {
     top: -0.75rem;
 }
 
- #main > article > header > span.image.left {
+#main > article > header > span.image.left {
     margin: 2rem 2rem 2rem 2rem;
     transform: scale(1);
- }
+}
 
 #main.homepage>.post.featured a {
     color:  #ffffff;
+}
+
+#main > section > article:nth-child(12) > header,
+#main > section > article:nth-child(12) > a,
+#main > section > article:nth-child(12) > ul {
+    display:  none;
 }
 
 @media screen and (min-width: 737px) {
@@ -467,6 +473,11 @@ body li, body li b {
     #main > section > article:nth-child(9) {
         background-position-x: 0rem;
         background-position-y: 27rem;
+    }
+
+    #main > section > article:nth-child(12)
+    {
+        display: none;
     }
 }
 

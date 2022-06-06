@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "GIS Game World"
-date:   0001-01-10
+date:   0001-01-11
 excerpt: "Final project for Games Development degree program"
 image: "/images/gis-game-world-title.png"
 type: "Practicum"

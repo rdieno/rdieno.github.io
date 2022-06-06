@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "One True King"
-date:   0001-01-06
+date:   0001-01-07
 excerpt: "Global Game Jam 2019 Submission"
 image: "/images/one-true-king-1.png"
 type: "Game Jam"
