@@ -101,9 +101,7 @@ RightStairs --> stair(right, 10)
 
 <span class="image fit"><a href="/images/game-scene-3.png" target="_blank"><img src="/images/game-scene-3.png" alt=""></a></span>
 
-<hr/>
-<p class="textcenter">Note: this project is currently under review and is subject to change.</p>
-<hr/>
+<br/>
 
 <h2>LINKS</h2>
 

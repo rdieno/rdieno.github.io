@@ -41,3 +41,15 @@ type: "Unreal Engine"
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_upu8kJW6gI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<br/>
+
+<h2>LINKS</h2>
+
+<ul class="actions fit">
+  <li><a href="https://uc87f0e55ddf6c9a66e5003c6c32.dl.dropboxusercontent.com/cd/0/get/Bmy_eRMxdjRXmaC96YBa1TRc-GBYLfPbVG0CX2OYT7f2CmvMj7YK_1dmC7jWrsFsCpUHOVIHw36VcPZ3iBbIieWljwW5Qx8fnhOMx2f0IqgCyzRNukl2D1ghkauTzzJ-ewOhUJZ_Mh5AdUsSY0nMvSJFulQ_-z6Vk2z1xdFMRRng_w/file?_download_id=5399151753438444610650601311252551776080983878650278711270681411&_notify_domain=www.dropbox.com&dl=1" target="_blank" class="button fit icon fa-download largefont">Download Windows Build (452 MB)</a></li> 
+</ul>
+
+<hr>
+
+<p class="textcenter">Controls: WASD to move character. Use mouse to aim. Hold LMB to shoot.</p>
+<hr>
