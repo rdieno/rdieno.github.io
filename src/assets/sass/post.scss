@@ -1,0 +1,134 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/breakpoints';
+
+// @include breakpoints(
+//   (
+//     default: (
+//       1681px,
+//       null,
+//     ),
+//     xlarge: (
+//       1281px,
+//       1920px,
+//     ),
+//     large: (
+//       1153px,
+//       1280px,
+//     ),
+//     medium: (
+//       737px,
+//       1152px,
+//     ),
+//     small: (
+//       481px,
+//       736px,
+//     ),
+//     xsmall: (
+//       361px,
+//       480px,
+//     ),
+//     xxsmall: (
+//       null,
+//       360px,
+//     ),
+//   )
+// );
+
+//html,
+//body,
+//#___gatsby,
+//#gatsby-focus-wrapper {
+//  height: 100%;
+//  margin: 0;
+//  //background: #000;
+//  background: #ff00ff; // TODO: ERROR CHECKING - REMOVE THIS ON LAUNCH
+//}
+//
+
+.post-layout {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.post-wrapper {
+    background: #ff00ff;
+
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+
+    display: contents;
+}
+
+.post-header {
+    background: _palette(accent);
+    flex: 0 1 auto;
+    text-align: center;
+}
+
+.post-header p {
+    margin: 2em;
+}
+
+.post-body {
+    //background: #00ff00;
+    background: _palette(post-bg-main);
+
+    display: flex;
+    flex: 1;
+}
+
+.post-footer {
+    background: #FFFF00;
+    flex: 0 1 40px;
+}
+
+.post-body-col-mid {
+    @include breakpoint('>medium') {
+        flex: 0 0 12em;
+        min-width: _size(content-width);
+    }
+
+    padding: 2em;
+}
+
+.post-body-col-left,
+.post-body-col-right {
+    flex: 1;
+}
+
+.post-body-col-left {
+    order: -1;
+    //background: #ff0000;
+}
+
+
+//.post-body-col-right {
+    //background: #0000FF;
+//}
+
+
+.post-body-col-left,
+.post-body-col-right {
+    background: _palette(post-bg-side);
+
+    @include breakpoint('<=medium') {
+        display: none;
+    }
+    
+
+}
+
+
+//@include breakpoint('<=medium') {
+//
+//}
+//
+//@media only screen and (max-width: 736px) {
+//    .post-body-col-left,
+//    .post-body-col-right {
+//        display: none;
+//    }
+//  }

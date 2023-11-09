@@ -49,5 +49,8 @@
 		accent:					#49fcd4,
 		accent-border:			desaturate(darken(#49fcd4, 8), 30),
 		accent-alt:				desaturate(darken(#49fcd4, 10), 20),
-		accent-bg:				transparentize(#49fcd4, 0.75)
+		accent-bg:				transparentize(#49fcd4, 0.75),
+
+		post-bg-main:				#f8f8f8,
+		post-bg-side:				#ffffff,
 	);
