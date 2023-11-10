@@ -12,7 +12,10 @@ class PostContent extends Component {
 
     const postcontent = content.map((obj, i) => {
       return (
-        <p>{obj.body}</p>
+        <>
+          <h2>{obj.body}</h2>
+          <p>{obj.body}</p>
+        </>
       );
     });
 

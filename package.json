@@ -16,6 +16,12 @@
     "gatsby-plugin-offline": "^5.2.0",
     "gatsby-plugin-react-helmet": "^5.2.0",
     "gatsby-plugin-sass": "^5.2.0",
+    "gatsby-plugin-sharp": "^4.25.1",
+    "gatsby-remark-embedder": "^6.0.0",
+    "gatsby-remark-images": "^6.0.0",
+    "gatsby-sharp": "^1.12.1",
+    "gatsby-source-filesystem": "^4.0.0",
+    "gatsby-transformer-remark": "^5.0.0",
     "node-sass": "^9.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -36,10 +42,10 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
-    "prettier": "^2.4.1",
-    "rimraf": "^2.6.3",
     "node-gyp": "^10.0.0",
-    "node-sass": "^9.0.0"
+    "node-sass": "^9.0.0",
+    "prettier": "^2.4.1",
+    "rimraf": "^2.6.3"
   },
   "keywords": [
     "gatsby",

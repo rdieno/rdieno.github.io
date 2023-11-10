@@ -76,8 +76,10 @@
     //background: #00ff00;
     background: _palette(post-bg-main);
 
-    display: flex;
-    flex: 1;
+    @include breakpoint('>medium') {
+        display: flex;
+        flex: 1;
+    }
 }
 
 .post-footer {
@@ -119,6 +121,10 @@
     }
     
 
+}
+
+.post-content {
+    text-align: center;
 }
 
 

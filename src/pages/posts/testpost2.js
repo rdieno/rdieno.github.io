@@ -4,8 +4,9 @@ import PostLayout2 from '../../components/PostLayout2';
 import PostHeader from '../../components/PostHeader';
 import PostContent from '../../components/PostContent';
 
+//import { Post1} from 'post-1';
 
-const post_content_1 = [
+const post_1 = [
   {
     header: "header test",
     subline: "Be one with the Universe",
@@ -27,7 +28,7 @@ const TestPost2 = () => (
 
         <div className="post-header">
             <p>I'm a header!</p>
-            <PostHeader content={post_content_1} />
+            <PostHeader content={post_1} />
         </div>
 
         <div className="post-body">
@@ -38,7 +39,7 @@ const TestPost2 = () => (
 
           <div className="post-body-col-mid">        
               <div className="content">
-                <PostContent content={post_content_1} />
+                <PostContent content={post_1} />
               </div>
           </div>
 
