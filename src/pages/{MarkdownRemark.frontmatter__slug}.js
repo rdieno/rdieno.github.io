@@ -1,12 +1,12 @@
 import { graphql } from "gatsby";
 import * as React from "react";
-import PostLayout2 from '../components/PostLayout2';
+import PostLayout from '../components/PostLayout';
 
-export default function BlogPostTemplate({ data: { markdownRemark } }) {
+export default function PostTemplate({ data: { markdownRemark } }) {
   const { frontmatter, html } = markdownRemark;
   return (
     <>
-        <PostLayout2>
+        <PostLayout>
 
             <div className="post-wrapper">
 
@@ -35,7 +35,7 @@ export default function BlogPostTemplate({ data: { markdownRemark } }) {
 
             </div>
 
-        </PostLayout2>
+        </PostLayout>
     </>
   );
 }

@@ -1,6 +1,6 @@
 ---
 title: "Learning about Gatsby"
-slug: "/blog/learning-about-gatsby"
+slug: "/posts/learning-about-gatsby"
 date: "2021-08-01"
 ---
 

@@ -1,6 +1,6 @@
 --- 
 title: "Continuing to Learn"
-slug: "/blog/continuing-learning"
+slug: "/posts/continuing-learning"
 date: "2021-08-01" 
 --- 
  
