@@ -2,50 +2,6 @@
 @import 'libs/functions';
 @import 'libs/breakpoints';
 
-// @include breakpoints(
-//   (
-//     default: (
-//       1681px,
-//       null,
-//     ),
-//     xlarge: (
-//       1281px,
-//       1920px,
-//     ),
-//     large: (
-//       1153px,
-//       1280px,
-//     ),
-//     medium: (
-//       737px,
-//       1152px,
-//     ),
-//     small: (
-//       481px,
-//       736px,
-//     ),
-//     xsmall: (
-//       361px,
-//       480px,
-//     ),
-//     xxsmall: (
-//       null,
-//       360px,
-//     ),
-//   )
-// );
-
-//html,
-//body,
-//#___gatsby,
-//#gatsby-focus-wrapper {
-//  height: 100%;
-//  margin: 0;
-//  //background: #000;
-//  background: #ff00ff; // TODO: ERROR CHECKING - REMOVE THIS ON LAUNCH
-//}
-//
-
 .post-layout {
     display: flex;
     min-height: 100vh;
@@ -73,7 +29,6 @@
 }
 
 .post-body {
-    //background: #00ff00;
     background: _palette(post-bg-main);
 
     @include breakpoint('>medium') {
@@ -103,14 +58,7 @@
 
 .post-body-col-left {
     order: -1;
-    //background: #ff0000;
 }
-
-
-//.post-body-col-right {
-    //background: #0000FF;
-//}
-
 
 .post-body-col-left,
 .post-body-col-right {
@@ -119,8 +67,6 @@
     @include breakpoint('<=medium') {
         display: none;
     }
-    
-
 }
 
 .post-content {
@@ -131,40 +77,11 @@
     text-align: start;
 }
 
-.post-md img {
-    //border: ridge  2px _palette(accent);
-}
-
 .post-md blockquote {
     border-left: solid 2px _palette(accent);
-    //border-left: solid 0px _palette(accent);
-    //font-style: italic;
     margin: 2rem 4rem 0 8rem;
-    padding: 1rem 0 1rem 2rem;
+    padding: 2rem 0 2rem 2rem;
 }
-
-//.post-md blockquote::before {
-//    background: _palette(accent);
-//    content: "";
-//    display: block;
-//    height: 2px;
-//    position: relative;
-//    left: -5rem;
-//    width: 3rem;
-//    top: -1rem;
-//}
-//
-//.post-md blockquote::after {
-//    background: _palette(accent);
-//    border-radius: 0.5rem;
-//    content: "";
-//    display: block;
-//    height: 0.5rem;
-//    position: relative;
-//    width: 0.5rem;
-//    top: -17.3rem;
-//    left: -5.5rem;
-//}
 
 .post-md h2::before {
     background: _palette(accent);
@@ -174,7 +91,7 @@
     height: 0.5rem;
     position: relative;
     width: 0.5rem;
-    top:  8.7rem;
+    top:  8.6rem;
     left: 4.5rem;
 }
 
@@ -186,7 +103,7 @@
     position: relative;
     left: 5rem;
     width: 3rem;
-    top: 5.14rem;
+    top: 5.08rem;
 }
 
 .post-md h2,
@@ -238,9 +155,10 @@
 //}
 
 .post-md hr {
-    background: _palette(accent);
-    background: #49fcd4;
-    margin: 0 4rem 2rem 8rem;
+   //background: _palette(accent);
+    border-bottom: solid 2px _palette(accent);
+    //background: #49fcd4;
+    margin: 0 4rem 0rem 8rem;
 }
 
 //.post-md blockquote p:first-child {
@@ -258,3 +176,37 @@
 }
 
 
+.post-md .gallery {
+    padding: 1rem 2rem 2rem 12rem;
+    margin: 0rem 4rem 4rem 0rem;
+    width: unset;
+    border-right: solid 2px _palette(accent);
+}
+
+.post-md .gallery a img {
+    height: unset;
+    min-height: unset;
+}
+
+.post-md .gallery::after {
+    background: _palette(accent);
+    border-radius: 0.5rem;
+    content: "";
+    display: block;
+    height: 0.5rem;
+    position: relative;
+    width: 0.5rem;
+    top: 2.4rem;
+    left: calc(100% - -1.8rem);
+}
+
+
+#lightboxBackdrop .close_1x3s325 {
+    padding: 0;
+    top: -4px;
+    right: 8px;
+}
+
+#lightboxBackdrop .close_1x3s325 svg {
+    padding: 5px;
+}
