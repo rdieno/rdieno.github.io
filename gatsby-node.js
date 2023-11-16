@@ -21,7 +21,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             slug
             title
             date(formatString: "MMMM DD, YYYY")
-            excerpt
+            type
           }
           internal {
             contentFilePath
