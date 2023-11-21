@@ -5,11 +5,15 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import SideFooter from '../components/SideFooter';
 
-import heroImage from '../assets/images/pic01.jpg';
+//import heroImage from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
 import { Link } from 'gatsby';
+
+import heroImage from '../assets/images/ryan-portrait2.jpg'
+import leavesPattern from '../assets/images/leaves-pattern-sm.jpg'
+import wavyGrid from '../assets/images/wavy-grid.png'
 
 const img_set_1 = [
   {
@@ -225,6 +229,8 @@ const IndexPage = () => (
       </section>
 
       <section>
+      <img src={leavesPattern} alt="" />
+      <img src={wavyGrid} alt="" />
         <ContactForm />
         <SideFooter />
       </section>

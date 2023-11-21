@@ -73,17 +73,19 @@
     text-align: center;
 }
 
-.post-md p {
+// internal-section-gallery-left
+
+.post-md .internal-section-gallery-left p {
     text-align: start;
 }
 
-.post-md blockquote {
+.post-md .internal-section-gallery-left blockquote {
     border-left: solid 2px _palette(accent);
     margin: 2rem 4rem 0 8rem;
     padding: 2rem 0 2rem 2rem;
 }
 
-.post-md h2::before {
+.post-md .internal-section-gallery-left h2::before {
     background: _palette(accent);
     border-radius: 0.5rem;
     content: "";
@@ -95,7 +97,7 @@
     left: 4.5rem;
 }
 
-.post-md h3::before {
+.post-md .internal-section-gallery-left h3::before {
     background: _palette(accent);
     content: "";
     display: block;
@@ -106,14 +108,14 @@
     top: 5.08rem;
 }
 
-.post-md h2,
-.post-md h3 {
+.post-md .internal-section-gallery-left h2,
+.post-md .internal-section-gallery-left h3 {
     font-size: 3em;
     line-height: 1em;
     max-width: 26rem;
 }
 
-.post-md h2 {
+.post-md .internal-section-gallery-left h2 {
     margin-bottom: 0;
     font-weight: 800;
     margin: 0 0 0.25rem 0;
@@ -122,7 +124,7 @@
     text-align: start;
 }
 
-.post-md h3 {
+.post-md .internal-section-gallery-left h3 {
     margin-bottom: 0;
     -webkit-text-stroke: 0;
     color: black;
@@ -131,28 +133,28 @@
     text-align: start;
 }
 
-.post-md hr {
+.post-md .internal-section-gallery-left hr {
     border-bottom: solid 2px _palette(accent);
     margin: 0 4rem 0rem 8rem;
 }
 
-.post-md blockquote p:last-child {
+.post-md .internal-section-gallery-left blockquote p:last-child {
    margin-bottom: 0rem;
 }
 
-.post-md .gallery {
+.post-md .internal-section-gallery-left .gallery {
     padding: 1rem 2rem 2rem 12rem;
     margin: 0rem 4rem 4rem 0rem;
     width: unset;
     border-right: solid 2px _palette(accent);
 }
 
-.post-md .gallery a img {
+.post-md .internal-section-gallery-left .gallery a img {
     height: unset;
     min-height: unset;
 }
 
-.post-md .gallery::after {
+.post-md .internal-section-gallery-left .gallery::after {
     background: _palette(accent);
     border-radius: 0.5rem;
     content: "";
@@ -164,50 +166,409 @@
     left: calc(100% - -1.8rem);
 }
 
-// nth-of-type(even)
+// internal-section-gallery-right
 
-.post-md h2:nth-of-type(even),
-.post-md h3:nth-of-type(even) {
-    text-align: end;
-    margin-right: 1em;
-    max-width: unset;
+.post-md .internal-section-generic-right p {
+    text-align: start;
 }
 
-.post-md blockquote:nth-of-type(even) {
-    border-left: unset;
+.post-md .internal-section-gallery-right h2::before {
+    background: _palette(accent);
+    border-radius: 0.5rem;
+    content: "";
+    display: block;
+    height: 0.5rem;
+    position: relative;
+    width: 0.5rem;
+    top:  8.6rem;
+    left: calc(100% - 2.1rem);
+}
+
+.post-md .internal-section-gallery-right h3::before {
+    background: _palette(accent);
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    left: calc(100% - 5.1rem); 
+    width: 3rem;
+    top: 5.08rem;
+}
+
+
+.post-md .internal-section-gallery-right h2 {
+    margin-bottom: 0;
+    font-weight: 800;
+    margin: 0 0 0.25rem 0;
+    -webkit-text-stroke: 0.1rem black;
+    color: rgba(0,0,0,0);
+    text-align: start;
+}
+
+.post-md .internal-section-gallery-right h3 {
+    margin-bottom: 0;
+    -webkit-text-stroke: 0;
+    color: black;
+    font-weight: 800;
+    margin: 0 0 0.25rem 0;
+    text-align: start;
+}
+
+.post-md .internal-section-gallery-right blockquote p:last-child {
+   margin-bottom: 0rem;
+}
+
+.post-md .internal-section-gallery-right .gallery {
+    padding: 1rem 12rem 2rem 2rem;
+    margin: 0rem 0rem 4rem 4rem;
+    border-right: none;
+    border-left: solid 2px #49fcd4;
+}
+
+.post-md .internal-section-gallery-right .gallery a img {
+    height: unset;
+    min-height: unset;
+}
+
+.post-md .internal-section-gallery-right .gallery::after {
+    background: _palette(accent);
+    border-radius: 0.5rem;
+    content: "";
+    display: block;
+    height: 0.5rem;
+    position: relative;
+    width: 0.5rem;
+    top: 2.4rem;
+    left: -2.3rem;
+}
+
+.post-md .internal-section-gallery-right h2,
+.post-md .internal-section-gallery-right h3 {
+    font-size: 3em;
+    line-height: 1em;
+    text-align: end;
+    margin-right: 1em;
+}
+
+
+.post-md .internal-section-gallery-right blockquote {
+    border-left: none;
     border-right: solid 2px #49fcd4;
     margin: 2rem 8rem 0 4rem;
     padding: 2rem 2rem 2rem 0rem;
-
 }
 
-.post-md blockquote:nth-of-type(even) p {
-    text-align: end;
-}
-
-.post-md hr:nth-of-type(even) {
+.post-md .internal-section-gallery-right hr {
     border-bottom: solid 2px _palette(accent);
     margin: 0rem 8rem 0rem 4rem;
 }
 
-.post-md h3:nth-of-type(even)::before {
-    left: calc(100% - 5.1rem) !important; 
+.post-md .internal-section-gallery-right blockquote p {
+    text-align: end;
 }
 
-.post-md h2:nth-of-type(even)::before {
-    left: calc(100% - 2.1rem) !important; 
+// internal-section-generic-right
+
+.post-md .internal-section-generic-right blockquote {
+    border-left: none;
+    border-right: solid 2px _palette(accent);
+    margin: 2rem 4rem 4rem 4rem;
+    padding: 2rem 2rem 2rem 0rem;
 }
 
-.post-md .gallery:nth-of-type(even) {
+.post-md .internal-section-generic-right::after {
+    background: _palette(accent);
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    left: calc(100% - 4rem);
+    width: 3rem;
+    bottom: 4.1rem;
+}
+
+.post-md .internal-section-generic-right blockquote::after {
+    background: _palette(accent);
+    border-radius: 0.5rem;
+    content: "";
+    display: block;
+    height: 0.5rem;
+    position: relative;
+    width: 0.5rem;
+    top: 2.2rem;
+    left: calc(100% + 5rem);
+}
+
+.post-md .internal-section-generic-right p {
+    text-align: start;
+}
+
+.post-md .internal-section-generic-right h2::before {
+    background: _palette(accent);
+    border-radius: 0.5rem;
+    content: "";
+    display: block;
+    height: 0.5rem;
+    position: relative;
+    width: 0.5rem;
+    top:  8.6rem;
+    left: calc(100% + 2rem);
+}
+
+.post-md .internal-section-generic-right h3::before {
+    background: _palette(accent);
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    left: calc(100% - 1rem); 
+    width: 3rem;
+    top: 5.08rem;
+}
+
+
+.post-md .internal-section-generic-right h2 {
+    margin-bottom: 0;
+    font-weight: 800;
+    margin: 0 0 0.25rem 0;
+    -webkit-text-stroke: 0.1rem black;
+    color: rgba(0,0,0,0);
+    text-align: start;
+}
+
+.post-md .internal-section-generic-right h3 {
+    margin-bottom: 0;
+    -webkit-text-stroke: 0;
+    color: black;
+    font-weight: 800;
+    margin: 0 0 0.25rem 0;
+    text-align: start;
+}
+
+.post-md .internal-section-generic-right blockquote p:last-child {
+   margin-bottom: 0rem;
+}
+
+.post-md .internal-section-generic-right .gallery {
     padding: 1rem 12rem 2rem 2rem;
     margin: 0rem 0rem 4rem 4rem;
-    border-right: unset;
+    border-right: none;
     border-left: solid 2px #49fcd4;
 }
 
+.post-md .internal-section-generic-right .gallery a img {
+    height: unset;
+    min-height: unset;
+}
 
-.post-md .gallery:nth-of-type(even)::after {
+.post-md .internal-section-generic-right .gallery::after {
+    background: _palette(accent);
+    border-radius: 0.5rem;
+    content: "";
+    display: block;
+    height: 0.5rem;
+    position: relative;
+    width: 0.5rem;
+    top: 2.4rem;
     left: -2.3rem;
+}
+
+.post-md .internal-section-generic-right h2,
+.post-md .internal-section-generic-right h3 {
+    font-size: 3em;
+    line-height: 1em;
+    text-align: end;
+    margin-right: 1em;
+}
+
+.post-md .internal-section-generic-right hr {
+    border-bottom: solid 2px _palette(accent);
+    margin: 0rem 8rem 0rem 4rem;
+}
+
+.post-md .internal-section-generic-right blockquote p {
+    text-align: end;
+}
+
+.post-md .internal-section-generic-right .gen-r-wrapper {
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.post-md .internal-section-generic-right .gen-r-image {
+    flex: 1;
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+.post-md .internal-section-generic-right .gen-r-text {
+    flex: 1;
+    margin-left: 2rem;
+    padding: .5rem 0rem .5rem 0rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.post-md .internal-section-generic-right .gen-r-text h4 {
+    text-align: start;
+    margin-bottom: 0.5rem;
+}
+
+.post-md .internal-section-generic-right .gen-r-text p {
+    text-align: start;
+    font-size: 1rem;
+}
+
+// internal-section-generic-left
+
+.post-md .internal-section-generic-left blockquote {
+    border-left: none;
+    border-right: solid 2px _palette(accent);
+    margin: 2rem 4rem 4rem 4rem;
+    padding: 2rem 2rem 2rem 0rem;
+}
+
+.post-md .internal-section-generic-left::after {
+    background: _palette(accent);
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    left: calc(100% - 4rem);
+    width: 3rem;
+    bottom: 4.1rem;
+}
+
+.post-md .internal-section-generic-left blockquote::after {
+    background: _palette(accent);
+    border-radius: 0.5rem;
+    content: "";
+    display: block;
+    height: 0.5rem;
+    position: relative;
+    width: 0.5rem;
+    top: 2.2rem;
+    left: calc(100% + 5rem);
+}
+
+.post-md .internal-section-generic-left p {
+    text-align: start;
+}
+
+.post-md .internal-section-generic-left h2::before {
+    background: _palette(accent);
+    border-radius: 0.5rem;
+    content: "";
+    display: block;
+    height: 0.5rem;
+    position: relative;
+    width: 0.5rem;
+    top:  8.6rem;
+    left: calc(100% + 2rem);
+}
+
+.post-md .internal-section-generic-left h3::before {
+    background: _palette(accent);
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    left: calc(100% - 1rem); 
+    width: 3rem;
+    top: 5.08rem;
+}
+
+
+.post-md .internal-section-generic-left h2 {
+    margin-bottom: 0;
+    font-weight: 800;
+    margin: 0 0 0.25rem 0;
+    -webkit-text-stroke: 0.1rem black;
+    color: rgba(0,0,0,0);
+    text-align: start;
+}
+
+.post-md .internal-section-generic-left h3 {
+    margin-bottom: 0;
+    -webkit-text-stroke: 0;
+    color: black;
+    font-weight: 800;
+    margin: 0 0 0.25rem 0;
+    text-align: start;
+}
+
+.post-md .internal-section-generic-left blockquote p:last-child {
+   margin-bottom: 0rem;
+}
+
+.post-md .internal-section-generic-left .gallery {
+    padding: 1rem 12rem 2rem 2rem;
+    margin: 0rem 0rem 4rem 4rem;
+    border-right: none;
+    border-left: solid 2px #49fcd4;
+}
+
+.post-md .internal-section-generic-left .gallery a img {
+    height: unset;
+    min-height: unset;
+}
+
+.post-md .internal-section-generic-left .gallery::after {
+    background: _palette(accent);
+    border-radius: 0.5rem;
+    content: "";
+    display: block;
+    height: 0.5rem;
+    position: relative;
+    width: 0.5rem;
+    top: 2.4rem;
+    left: -2.3rem;
+}
+
+.post-md .internal-section-generic-left h2,
+.post-md .internal-section-generic-left h3 {
+    font-size: 3em;
+    line-height: 1em;
+    text-align: end;
+    margin-right: 1em;
+}
+
+.post-md .internal-section-generic-left hr {
+    border-bottom: solid 2px _palette(accent);
+    margin: 0rem 8rem 0rem 4rem;
+}
+
+.post-md .internal-section-generic-left blockquote p {
+    text-align: end;
+}
+
+.post-md .internal-section-generic-left .gen-l-wrapper {
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.post-md .internal-section-generic-left .gen-l-image {
+    flex: 1;
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+.post-md .internal-section-generic-left .gen-l-text {
+    flex: 1;
+    margin-left: 2rem;
+    padding: .5rem 0rem .5rem 0rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.post-md .internal-section-generic-left .gen-l-text h4 {
+    text-align: start;
+    margin-bottom: 0.5rem;
+}
+
+.post-md .internal-section-generic-left .gen-l-text p {
+    text-align: start;
+    font-size: 1rem;
 }
 
 
@@ -224,3 +585,8 @@
 }
 
 
+// Misc
+
+.post-md a {
+    border-bottom: unset;
+}

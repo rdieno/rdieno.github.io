@@ -3,11 +3,37 @@ import { graphql } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
 import { Link } from "gatsby"
 import ImageSet1 from "../gallery/ImageSet1"
-import HeaderLeft from "../sections/HeaderLeft"
+import InternalSectionGalleryLeft from "../sections/InternalSectionGalleryLeft"
+import InternalSectionGalleryRight from "../sections/InternalSectionGalleryRight"
+import InternalSectionGenericLeft from "../sections/InternalSectionGenericLeft"
+import InternalSectionGenericRight from "../sections/InternalSectionGenericRight"
+import InternalSubsectionGRWrapper from "../sections/subsections/InternalSectionGenericRight-Wrapper"
+import InternalSubsectionGRBlockquote from "../sections/subsections/InternalSectionGenericRight-Blockquote"
+import InternalSubsectionGRImage from "../sections/subsections/InternalSectionGenericRight-Image"
+import InternalSubsectionGRText from "../sections/subsections/InternalSectionGenericRight-Text"
+import InternalSubsectionGLWrapper from "../sections/subsections/InternalSectionGenericLeft-Wrapper"
+import InternalSubsectionGLBlockquote from "../sections/subsections/InternalSectionGenericLeft-Blockquote"
+import InternalSubsectionGLImage from "../sections/subsections/InternalSectionGenericLeft-Image"
+import InternalSubsectionGLText from "../sections/subsections/InternalSectionGenericLeft-Text"
 
 import '../assets/sass/post.scss';
 
-const shortcodes = { Link, ImageSet1, HeaderLeft } // Provide common components here
+const shortcodes = {
+  Link,
+  ImageSet1,
+  InternalSectionGalleryLeft,
+  InternalSectionGalleryRight,
+  InternalSectionGenericLeft,
+  InternalSectionGenericRight,
+  InternalSubsectionGRWrapper,
+  InternalSubsectionGRBlockquote,
+  InternalSubsectionGRImage,
+  InternalSubsectionGRText,
+  InternalSubsectionGLWrapper,
+  InternalSubsectionGLBlockquote,
+  InternalSubsectionGLImage,
+  InternalSubsectionGLText,
+} // Provide common components here
 
 export default function PageTemplate({ data, children }) {
   return (
