@@ -5,7 +5,7 @@ import config from '../../config';
 export default function Header() {
   return (
     <header>
-      <h1>{config.heading}</h1>
+      <h1>{config.heading} <span className="heading2">{config.heading2}</span></h1>
       <p>{config.subHeading}</p>
       <ul className="actions">
         <li>

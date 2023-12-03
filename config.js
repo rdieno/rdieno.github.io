@@ -8,7 +8,8 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-paradigmshift/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
+  heading: 'Ryan',
+  heading2: 'Dieno',
   subHeading: 'Full time Web Developer. Part time Open source contributor  ',
   // social
   socialLinks: [
