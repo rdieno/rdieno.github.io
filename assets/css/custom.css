@@ -333,11 +333,11 @@ body li, body li b {
     color:  #ffffff;
 }
 
-#main > section > article:nth-child(12) > header,
-#main > section > article:nth-child(12) > a,
-#main > section > article:nth-child(12) > ul {
-    display:  none;
-}
+//#main > section > article:nth-child(12) > header,
+//#main > section > article:nth-child(12) > a,
+//#main > section > article:nth-child(12) > ul {
+//    display:  none;
+//}
 
 @media screen and (min-width: 737px) {
     #main.homepage>.post.featured {
@@ -499,4 +499,8 @@ body li, body li b {
     #main {
         background-color: #151823;
     }
+}
+
+.post a {
+    color: #0c85a7;
 }
