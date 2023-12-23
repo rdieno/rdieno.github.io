@@ -56,10 +56,11 @@ $palette: (
 	accent-alt:				desaturate(darken(#49fcd4, 10), 20),
 	accent-bg:				transparentize(#49fcd4, 0.75),
 
-	post-bg-main:				#f8f8f8,
-	post-bg-side:				#ffffff,
+	post-bg-main:			#ffffff,
+	post-bg-side:			#ffffff,
 
 	//bg-leaves:     url(http://localhost:8000/static/leaves-pattern-sm-9113ac271dfdf4140a1f9a4cc5b2927e.jpg),
-	bg-leaves:     url(http://localhost:8000/static/leaves-pattern-geo-sm-2-bb94afe7ff13c460dd5b49afefd0f549.jpg),
-	
+	bg-leaves:     			url(http://localhost:8000/static/leaves-pattern-geo-sm-2-bb94afe7ff13c460dd5b49afefd0f549.jpg),
+	bg-dark: 				#2a2c29,
+	text-light:     		#ffffff,
 );

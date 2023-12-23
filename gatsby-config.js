@@ -48,17 +48,7 @@ module.exports = {
               maxWidth: 750,
               quality: 100,
               backgroundColor: `none`,
-            },
-          },
-          {
-            resolve: `gatsby-remark-embedder`,
-            options: {
-              customTransformers: [
-                // Your custom transformers
-              ],
-              services: {
-                // The service-specific options by the name of the service
-              },
+              loading: `auto`,
             },
           },
         ],

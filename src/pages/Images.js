@@ -7,6 +7,7 @@ import wavyGrid from '../assets/images/wavy-grid.png'
 import geoGlass from '../assets/images/geoglass.png'
 import leavesBGAccent from '../assets/images/leaf-bg-accent.png';
 import geoPattern from '../assets/images/geo-pattern-4.png';
+import scanline from '../assets/images/scanline.jpg'
 
 const ImagePage = () => (
   <>
@@ -17,6 +18,7 @@ const ImagePage = () => (
     <img src={geoGlass} alt="" />
     <img src={leavesBGAccent} alt="" />
     <img src={geoPattern} alt="" />
+    <img src={scanline} alt="" />
   </>
 );
 

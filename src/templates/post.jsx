@@ -3,6 +3,10 @@ import { graphql } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
 import { Link } from "gatsby"
 import ImageSet1 from "../gallery/ImageSet1"
+import ISectionLight from "../sections/ISectionLight"
+import ISectionDark from "../sections/ISectionDark"
+import Arrow from "../components/Arrow"
+
 import InternalSectionGalleryLeft from "../sections/InternalSectionGalleryLeft"
 import InternalSectionGalleryRight from "../sections/InternalSectionGalleryRight"
 import InternalSectionGenericLeft from "../sections/InternalSectionGenericLeft"
@@ -16,11 +20,15 @@ import InternalSubsectionGLBlockquote from "../sections/subsections/InternalSect
 import InternalSubsectionGLImage from "../sections/subsections/InternalSectionGenericLeft-Image"
 import InternalSubsectionGLText from "../sections/subsections/InternalSectionGenericLeft-Text"
 
+import InternalSectionDark from "../sections/InternalSectionDark"
+
 import '../assets/sass/post.scss';
 
 const shortcodes = {
   Link,
   ImageSet1,
+  ISectionLight,
+  ISectionDark,
   InternalSectionGalleryLeft,
   InternalSectionGalleryRight,
   InternalSectionGenericLeft,
@@ -33,6 +41,8 @@ const shortcodes = {
   InternalSubsectionGLBlockquote,
   InternalSubsectionGLImage,
   InternalSubsectionGLText,
+  InternalSectionDark,
+  Arrow,
 } // Provide common components here
 
 export default function PageTemplate({ data, children }) {
