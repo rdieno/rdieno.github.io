@@ -20,24 +20,6 @@ const img_set_1 = [
     title: 'Any time ',
     desc: 'Be one with the time',
   },
-  {
-    src: require('../assets/images/gallery/fulls/04.jpg').default,
-    thumbnail: require('../assets/images/gallery/thumbs/04.jpg').default,
-    title: 'Any source of light',
-    desc: 'Be one with the light',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/04.jpg').default,
-    thumbnail: require('../assets/images/gallery/thumbs/04.jpg').default,
-    title: 'Any source of light',
-    desc: 'Be one with the light',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/04.jpg').default,
-    thumbnail: require('../assets/images/gallery/thumbs/04.jpg').default,
-    title: 'Any source of light',
-    desc: 'Be one with the light',
-  },
 ];
 
 export default function ImageSet1() {

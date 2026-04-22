@@ -2,6 +2,13 @@
 @import 'libs/functions';
 @import 'libs/breakpoints';
 
+@font-face {
+  font-family: 'overpass';
+  src: url('../fonts/overpass-extrabold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .post-layout {
     display: flex;
     min-height: 100vh;
@@ -34,6 +41,9 @@
 .post-header h1, 
 .post-header h2 {
     color: _palette(text-light);
+    font-family: "overpass", "Source Sans Pro", Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-top: 32px;
 }
 
 .post-header p {
@@ -76,7 +86,9 @@
 .post-body-col-right {
     //background: _palette(post-bg-side);
 
-    background-image: url(http://localhost:8000/static/geo-pattern-4-f0bc7735d8a94a6a9d46c0a8ec794e10.png);
+    //background-image: url(http://localhost:8000/static/geo-pattern-4-f0bc7735d8a94a6a9d46c0a8ec794e10.png);
+    background-image: url('../images/dot-grid-gry.png');
+
     background-position: 0;
     background-repeat: repeat;
     background-size: auto;

@@ -54,7 +54,6 @@ export default function PageTemplate({ data, children }) {
 
                 <div className="post-header">
                     <h1>{data.mdx.frontmatter.title}</h1>
-                    <h2>{data.mdx.frontmatter.type}</h2>
                 </div>
 
                 <div className="post-body">
