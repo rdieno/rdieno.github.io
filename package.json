@@ -11,7 +11,7 @@
     "email": "anubhav.srivastava00@gmail.com"
   },
   "dependencies": {
-    "@mdx-js/react": "^3.0.0",
+    "@mdx-js/react": "^2.3.0",
     "gatsby": "^4.2.0",
     "gatsby-plugin-manifest": "^4.2.0",
     "gatsby-plugin-mdx": "^4.0.0",
@@ -23,14 +23,13 @@
     "gatsby-remark-responsive-iframe": "^5.0.0",
     "gatsby-sharp": "^1.12.1",
     "gatsby-source-filesystem": "^4.0.0",
-    "node-sass": "^9.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
     "react-images": "^0.5.19",
     "react-scrollspy": "^3.4.2",
     "rehype-react": "^8.0.0",
-    "sass": "^1.47.0",
+    "sass": "^1.99.0",
     "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {
@@ -45,7 +44,6 @@
   "devDependencies": {
     "gh-pages": "^3.2.3",
     "node-gyp": "^10.0.0",
-    "node-sass": "^9.0.0",
     "prettier": "^2.4.1",
     "rimraf": "^2.6.3"
   },
